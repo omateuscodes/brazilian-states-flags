@@ -22,8 +22,8 @@ export default defineConfig((configEnv) => ({
   ],
   build: {
     lib: {
-      entry: resolve('src', 'components/index.ts'),
-      name: 'ReactViteLibrary',
+      entry: resolve('src', 'components.index.ts'),
+      name: 'BrazilianStatesFlags',
       formats: ['es', 'umd'],
       fileName: (format) => `brazilian-states-flags.${format}.js`,
     },
