@@ -19,9 +19,9 @@
     "declarationMap": true,
     "baseUrl": ".",
     "paths": {
-      "brazilian-states-flags": ["src/component/index.ts"]
+      "brazilian-states-flags": ["src/components/index.ts"]
     },
-    "typeRoots": ["node_modules/@types", "src/component/index.d.ts"]
+    "typeRoots": ["node_modules/@types", "src/components/index.d.ts"]
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
